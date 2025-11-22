@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./carpeta/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="card shadow p-4">
+            <h3 class="text-center mb-3">Generador de Tabla de Multiplicar</h3>
+
+            <div class="mb-3">
+                <label class="form-label">Ingrese un número:</label>
+                <input type="text" id="txtNumero" class="form-control" placeholder="Ejemplo: 7">
+            </div>
+
+            <button id="btnGenerar" class="btn btn-primary w-100">Generar Tabla</button>
+
+            <!-- Área de mensajes -->
+            <div id="alerta" class="mt-3"></div>
+
+            <!-- Resultado -->
+            <pre id="resultado" class="mt-3 p-3 bg-dark text-white rounded"></pre>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="./carpeta/script.js"></script>
+
+</body>
+</html>
+
