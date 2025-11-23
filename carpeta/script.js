@@ -12,7 +12,7 @@ document.getElementById("btnGenerar").addEventListener("click", function () {
     if (numero === "" || isNaN(numero)) {
         alerta.innerHTML = `
             <div class="alert alert-warning" role="alert">
-                ⚠️ Por favor ingrese un número válido.
+                 Por favor ingrese un número válido.
             </div>
         `;
         return;
